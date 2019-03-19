@@ -1,0 +1,9 @@
+
+CREATE TABLE `teacher` (
+  `teacher_id` varchar(255) DEFAULT NULL COMMENT '老师编号',
+  `teacher_name` varchar(255) DEFAULT NULL COMMENT '老师姓名',
+  `gender` varchar(255) DEFAULT NULL COMMENT '性别'
+) ENGINE=MyISAM DEFAULT CHARSET=gbk COMMENT='老师';
+
+INSERT INTO `teacher` VALUES ('T0001','高齐妍','男'),('T0002','李红','女'),('T0003','李一萱',NULL),('T0004','刘金霞','男'),('T0005','刘思哲','男'),('T0006','刘兆祥','男'),('T0007','刘哲宇','男'),('T0008','梅艺涵','女'),('T0009','梅姿君','女'),('T0010','牛雨','女'),('T0011','牛光滢','女'),('T0012','黄雅','女'),('T0013','任筱','女'),('T0014','吴静婷','男'),('T0015','习芸颍','女'),('T0016','叶惠燕','女'),('T0017','周纯','男'),('T0018','周圣杰','男'),('T0019','方焓','女'),('T0020','方杰萍','女');
+
